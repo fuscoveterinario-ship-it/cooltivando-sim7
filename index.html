@@ -2538,7 +2538,8 @@ function baixarPDF(nomeProcesso) { nomeProcesso = nomeProcesso || processoAtual 
   htmlPDF += '</div>';
   htmlPDF += '<div class="watermark">Documento gerado pelo sistema Cooltivando SIM - ' + codigo + '</div>';
   htmlPDF += '<br><div style="text-align:center"><button onclick="window.print()" style="padding:10px 24px;background:#2d7a50;color:white;border:none;border-radius:8px;font-size:14px;font-weight:700;cursor:pointer">Imprimir / Salvar PDF</button></div>';
-  htmlPDF += '
+  htmlPDF += '</body></html>';
+</script>
 <!-- MODAL RASTRO -->
 <div class="mo" id="m-rastro" onclick="cm(event,this)">
   <div class="mb" style="width:460px">
